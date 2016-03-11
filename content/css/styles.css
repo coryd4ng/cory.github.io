@@ -20,6 +20,15 @@ body {
     overflow-x: hidden;
 }
 
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ----- REUSABLE COMPONENTS ----- */
 .row {
     max-width: 1140px;
@@ -42,7 +51,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 480%;
+    font-size: 400%;
     word-spacing: 4px;
     letter-spacing: 1px;
     font-weight: 100;
@@ -271,51 +280,46 @@ header {
 /* -------------------- */
 /* WORK */
 /* -------------------- */
-.section-work {
-    background-image: url(images/daimond_eyes_@2X.png);
-}
-
-.work-box {
-    margin-top: 30px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #d6e1e5;
-}
-
-.work-box:last-child {
-    padding-bottom: 0px;
-    border-bottom: none;
-}
-
-.section-work h3 {
-    text-align: left;
-}
-
-.work-nav {
-    list-style: none;
-    margin-top: 30px;
-}
-
-.work-nav li {
-    display: inline-block;
-    margin-right: 10px;
-}
+.section-work { background-image: url(images/daimond_eyes_@2X.png); }
 
 .section-work p {
     width: 80%;
     text-align: left;
 }
 
-.section-work img {
-    width: 100%;
+.section-work h3 { text-align: left; }
+.work-1,
+.work-2 {
+    margin-top:30px;
+    border-bottom: 1px solid #d6e1e5;
+    margin-bottom: 30px;
 }
 
-.work-2 img {
-    width: 35%;
+.work-1 .box:nth-child(2) {
+    float:right;
+    margin-bottom: 30px;
 }
 
-.work-2  {
-    text-align: center;
+.work-2 .box:first-child { float: right; }
+
+.work-2 .box:nth-child(2) { text-align: center; }
+
+.work-3 .box:nth-child(2) { float:right; }
+
+.work-nav {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+.work-nav li {
+    display: inline;
+}
+
+.section-work img { width: 100%; }
+
+.work-2 img { width: 35%; }
+
 
 /* -------------------- */
 /* PROJECTS */
@@ -379,6 +383,8 @@ header {
 .section-about img {
     border-radius: 50%;
     display: inline-block;
+    width: 60%;
+    margin: 0px 20%;
 }
 
 .section-about p {
@@ -392,14 +398,8 @@ header {
     text-transform: none;
 }
 
-
 .about-container {
     margin-top: 10px;
-}
-
-.about-container img{
-    width: 60%;
-    margin: 0px 20%;
 }
 
 .about-nav {
