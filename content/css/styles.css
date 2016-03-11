@@ -201,7 +201,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -302,8 +301,6 @@ header {
 
 .work-2 .box:first-child { float: right; }
 
-.work-2 .box:nth-child(2) { text-align: center; }
-
 .work-3 .box:nth-child(2) { float:right; }
 
 .work-nav {
@@ -318,7 +315,9 @@ header {
 
 .section-work img { width: 100%; }
 
-.work-2 img { width: 35%; }
+.work-2 img { width: 30%;
+        margin-left: 35%; 
+}
 
 
 /* -------------------- */
@@ -410,7 +409,11 @@ header {
 
 .about-nav li {
     display: inline-block;
-    padding: 1%   
+    padding: 1% ;    
+}
+
+.about-nav .btn-full {
+    margin-right: 0px;
 }
 
 .fb-video {
