@@ -96,21 +96,27 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
 /* Portrait */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
 /* Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
@@ -120,21 +126,27 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
 /* Portrait */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
 /* Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
@@ -144,7 +156,9 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
@@ -158,7 +172,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
@@ -168,19 +184,25 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
 /* Portrait */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 
 /* Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
